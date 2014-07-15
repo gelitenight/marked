@@ -1,21 +1,22 @@
-hello[^normal] world[^bold]
+hello[^normal] world[^style]
 
 order[^order]
 
-multiline[^multiline] multi
-
 empty[^empty]
 
+multi[^multiline]line
+
+[1]: www.link.com
 
 [^normal]: hello
 
 [^order]: hi
 
-[^bold]: **world**
+[^style]: **bold**. A [link][1].
+
+[^empty]: 
 
 [^multiline]: line1
     line2
 line3
-
-[^empty]: 
 
