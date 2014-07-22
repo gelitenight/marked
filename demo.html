@@ -51,6 +51,26 @@ to
     a
     : b
 
+`pattern`
+: The text of the regular expression.
+
+`flags`
+: If specified, flags can have any combination of the following values:
+
+     `g` 
+    : global match
+
+     `i`
+     : ignore case  
+ 
+     `m`
+     : multiline; treat beginning and end characters (^ and $) as working over multiple lines (i.e., match the beginning or end of *each* line (delimited by \n or \r), not only the very beginning or end of the whole input string)
+
+     `y`
+     : [sticky][1]; matches only from the index indicated by the `lastIndex` property of this regular expression in the target string (and does not attempt to match from any later indexes). This allows the match-only-at-start capabilities of the character "^" to effectively be used at any location in a string by changing the value of the `lastIndex` property.
+     
+[1]: www.baidu.com
+
     </pre>
   </div>
 
